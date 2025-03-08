@@ -1,6 +1,6 @@
 from groq import Groq
 
 # Replace with your actual API key
-groq_client = Groq(api_key="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")  
+groq_client = Groq(api_key="YOUR_GROQ_API_KEY")  
 models = groq_client.models.list()
 print(models)
